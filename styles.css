@@ -66,6 +66,12 @@ body {
     padding: 1.25rem 0;
 }
 
+@media (prefers-color-scheme: dark) {
+    .navbar {
+        background-color: rgba(17, 24, 39, 0.95);
+    }
+}
+
 .navbar .container {
     display: flex;
     justify-content: space-between;
